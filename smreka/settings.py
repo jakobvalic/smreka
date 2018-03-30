@@ -13,7 +13,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '!-yy7pv@2*6@po-d(!79vj*!4d6w@b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://www.heroku.com/', 'localhost', '127.0.0.1', '[::1]']
+ALLOWED_HOSTS = ['https://www.heroku.com/', 'localhost', '127.0.0.1', '[::1]', 'https://fierce-beyond-54818.herokuapp.com/']
 
 # CSRF_COOKIE_SECURE = True
 #
