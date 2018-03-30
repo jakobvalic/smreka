@@ -1,0 +1,1 @@
+web: gunicorn smreka.wsgi --log-file -
