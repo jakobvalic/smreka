@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <style>
+        .majhenRazmik {
+            line-height: 0.1;
+        }
+    </style>
+
+
+    <title>{{ naslov }}</title>
+</head>
+<body>
+
+
+<header>
+
+    <div class = container >
+    <a href="{% url 'vnos' %}">Vnos višine</a> | <a href="{% url 'izris' %}">Izris smreke</a>
+    </div>
+</header>
+
+<div class = container>
+{%  block content %}
+{% endblock %}
+</div>
+
+</body>
+</html>

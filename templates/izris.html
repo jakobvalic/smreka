@@ -1,0 +1,15 @@
+{% extends 'osnova.html' %}
+
+
+{% block content %}
+<h1>{{ opis }} obrnjena smreka:</h1>
+
+
+    <div  style="text-align: center" class="majhenRazmik">
+        {% for veja in smreka %}
+            <p>{{ veja }}</p>
+        {% endfor %}
+    </div>
+
+
+{% endblock %}

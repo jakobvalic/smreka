@@ -1,0 +1,22 @@
+{% extends 'osnova.html' %}
+
+{% block content %}
+
+
+
+<h1> Vnos višine smreke </h1>
+
+<form action="" method="POST">
+    {% csrf_token %}
+
+    {% for polje in obrazec %}
+        <p> {{ polje.label }} : {{ polje }} </p>
+    {% endfor %}
+
+
+    <input type="submit" value="Izriši" />
+</form>
+
+
+
+{% endblock %}
